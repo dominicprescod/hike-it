@@ -5,35 +5,3 @@
 body {
   background: papayawhip;
 }
-
-
-#index {
-  display: inline-flex;
-  width: 100%;
-  background: red;
-  height: 10px;
-}
-
-#biking {
-width: 25%;
-height: 100px;
-background: white;
-}
-
-#walking {
-width: 25%;
-height: 100px;
-background: black;
-}
-
-#hiking {
-width: 25%;
-height: 100px;
-background: red;
-}
-
-#climbing {
-width: 25%;
-height: 100px;
-background: blue;
-}
