@@ -8,44 +8,32 @@ body {
 
 
 #index {
+  display: inline-flex;
   width: 100%;
   background: red;
   height: 10px;
 }
 
-#top {
-  width: 100%;
-  height: 200px;
-  display: inline-flex;
-}
-#bottom {
-  width: 100%;
-  height: 200px;
-  display: inline-flex;
-}
-
 #biking {
-width: 50%;
+width: 25%;
+height: 100px;
 background: white;
 }
 
 #walking {
-width: 50%;
+width: 25%;
+height: 100px;
 background: black;
 }
 
 #hiking {
-width: 50%;
+width: 25%;
+height: 100px;
 background: red;
 }
 
 #climbing {
-width: 50%;
+width: 25%;
+height: 100px;
 background: blue;
-}
-
-#app-name {
-  background: green;
-  width: 100%;
-  height: 250px;
 }
