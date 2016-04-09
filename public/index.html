@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="hikeit">
   <head>
     <meta charset="utf-8">
     <title>Hike It</title>
     <link rel="stylesheet" href="./css/index.css" media="screen" title="no title" charset="utf-8">
-    <script src="./js/index.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js" charset='utf-8'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js' charset='utf-8'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
+    <script src="js/index.js" charset="utf-8"></script>
+  <base href="/">
   </head>
   <body>
-    <header>
-        <h1>Hike It</h1>
-    </header>
-    <main>
-
-    </main>
-    <footer>
-    </footer>
+  <section ng-view></section>
   </body>
 </html>
