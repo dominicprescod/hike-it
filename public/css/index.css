@@ -5,3 +5,19 @@
 body {
   background: papayawhip;
 }
+
+#index {
+  width: 100%;
+  height: 680px;
+  background: blue;
+  text-align: center;
+}
+input {
+  margin-top: 340px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  background: lightgrey;
+  font-size: 29px;
+  color: white;
+}
