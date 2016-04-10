@@ -1,9 +1,9 @@
-<div id="search">
-  <input type="text" name="name" placeholder="Search" id="searchbar">
-</div>
+<header>
+<li>Explore</li>
+<li>Map</li>
+<div>Showing 100 trails near you</div>
+</header>
 
-<!-- <div id="results">
-  <div class="trail" ng-repeat="trek in index.trails" style="background: url('{{trek.photo}}')">
-    {{trek.name}}
-  </div>
-</div> -->
+<div id="list">
+    <li  class="trail" ng-repeat="trail in index.trails" style="background: url('{{trail.photo}}');">{{trail.name}}</li>
+</div>
