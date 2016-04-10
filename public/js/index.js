@@ -2,8 +2,6 @@
   setTimeout(function(){
     document.getElementById("cover").style.width = "0";
   },2000);
-
-
 // ========================
 
 

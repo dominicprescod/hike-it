@@ -65,9 +65,17 @@ span {
 
 #cover {
   background: url('Desktop HD.png');
-  width: 100%;
+  background-repeat: no-repeat; 
   height: 740px;
   background-position: -400px -67px;
+  height: 100%;
+width: 100%;
+position: fixed;
+z-index: 1;
+top: 0;
+right: 0;
+overflow-x: hidden;
+transition: 1s;
 }
 
 #text {
@@ -75,18 +83,5 @@ span {
 color: white;
 font-size: 40px;
 font-family: fantasy;
-}
-
-
-#cover {
-  height: 100%;
-width: 100%;
-position: fixed;
-z-index: 1;
-top: 0;
-right: 0;
-/*background-color: rgb(0,0,0);*/
-background-color: lightgrey;
-overflow-x: hidden;
-transition: 0.5s;
+padding: 175px;
 }
