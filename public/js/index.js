@@ -4,6 +4,15 @@
   },2000);
 // ========================
 
+// ========================
+var openNav = function() {
+    document.getElementById("show").style.width = "100%";
+};
+
+var closeNav = function() {
+    document.getElementById("show").style.width = "0%";
+};
+// ========================
 
 var app = angular.module('hikeit', ["ngRoute"]);
 
@@ -28,4 +37,10 @@ app.controller('indexController', ["$http", function($http){
   }).then(function(response){
     controller.trails = response.data;
   });
+
+  this.thisTrail = {};
+  this.showMe = function(trail){
+    controller.thisTrail = trail;
+    console.log(controller.thisTrail);
+  };
 }]);

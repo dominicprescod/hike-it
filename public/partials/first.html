@@ -6,8 +6,42 @@
 </header>
 
 <div id="list">
-    <li  class="trail" ng-repeat="trail in index.trails" style="background: url('{{trail.photo}}'); background-repeat: no-repeat; background-size: cover;">{{trail.name}} <span>></span></li>
+    <li  class="trail" ng-repeat="trail in index.trails" ng-click="index.showMe(trail)" style="background: url('{{trail.photo}}'); background-repeat: no-repeat; background-size: cover;" onclick="openNav()">{{trail.name}} <span>></span></li>
 </div>
 <div id="cover">
   <!-- <h1 id="text">Hike-It</h1> -->
+</div>
+
+<div id="show">
+  <div id="pic" style="background: url('{{index.thisTrail.photo}}'); background-size: cover;" onclick="closeNav()"></div>
+  <ul>
+    <li id="summary">
+      <h1>Park Summary</h1>
+      <br>
+      <p>{{index.thisTrail.description}}</p>
+    </li>
+    <li id="points">
+      <h1>Important Points</h1>
+      <br>
+      <ul>
+        <li ng-if="index.thisTrail.cell_service">Cell</li>
+        <li ng-if="index.thisTrail.water_stations">Water</li>
+        <li ng-if="index.thisTrail.trail_guidance">Guides</li>
+        <li ng-if="index.thisTrail.pets_allowed">Pets</li>
+        <li ng-if="index.thisTrail.fishing">Fishing</li>
+        <li ng-if="index.thisTrail.camping">Camping</li>
+        <li ng-if="index.thisTrail.tics">Tics</li>
+        <li ng-if="index.thisTrail.dangerous_wildlife">Wildlife</li>
+        <li ng-if="index.thisTrail.transportation">Tranportation</li>
+      </ul>
+    </li>
+  </ul>
+<ul>
+  <li id="reviews">
+    <h1>Reviews</h1>
+    {{index.thisTrail.reviews}}</li>
+  <li id="weather_advisory">
+    <h1>Weather Advisory</h1>
+    {{index.thisTrail.weather_advisory}}</li>
+</ul>
 </div>
