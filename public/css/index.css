@@ -15,14 +15,14 @@ body {
 }
 input {
   margin-top: 340px;
-  width: 58%;
-  height: 30px;
-  text-align: center;
-  background: lightgrey;
-  font-size: 29px;
-  color: black;
-  float: left;
-  opacity: .4;
+    width: 99%;
+    height: 30px;
+    text-align: center;
+    background: lightgrey;
+    font-size: 29px;
+    color: black;
+    float: left;
+    opacity: .4;
 }
 
 #results {
