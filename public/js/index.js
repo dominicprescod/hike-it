@@ -14,4 +14,11 @@ $routeProvider.when('/',{
 
 app.controller('indexController', ["$http", function($http){
   var controller = this;
+  this.trails = [];
+  $http({
+    method: "GET",
+    url: "/getplaces"
+  }).then(function(response){
+    controller.trails = response.data;
+  });
 }]);

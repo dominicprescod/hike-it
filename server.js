@@ -7,7 +7,10 @@ var express = require('express'),
     app.use(express.static('public'));
 
 
-
+app.get('/getplaces', function(req,res){
+  var data  = require("./seed/places.js");
+  res.send(data);
+});
 
 
 // port for all incoming connections
