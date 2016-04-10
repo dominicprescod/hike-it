@@ -8,10 +8,10 @@
     src: url('fontello.ttf');
 }
 body {
-  background: papayawhip;
+  background: #C18B4A;
 }
 header {
-  width: 100%;
+  width: 0;
   height: 150px;
   background: white;
   text-align: center;
@@ -60,14 +60,18 @@ span {
 }
 
 #list {
+  width: 0;
   list-style: none;
   /*height: 800px;
   overflow: scroll;*/
 }
 
 #cover {
+  background: #C18B4A;
   background: url('Desktop HD.png');
-  /*background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
+
+  background-position: -400px -67px;
   height: 100%;
 width: 100%;
 position: fixed;

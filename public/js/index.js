@@ -1,6 +1,9 @@
 // ========================
   setTimeout(function(){
     document.getElementById("cover").style.width = "0";
+    document.getElementById("header").style.width = "100%";
+    document.getElementById("list").style.width = "100%";
+
   },2000);
 // ========================
 
