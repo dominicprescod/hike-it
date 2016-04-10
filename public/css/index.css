@@ -61,11 +61,13 @@ span {
 
 #list {
   list-style: none;
+  height: 540px;
+  overflow: scroll;
 }
 
 #cover {
   background: url('Desktop HD.png');
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   height: 740px;
   background-position: -400px -67px;
   height: 100%;
