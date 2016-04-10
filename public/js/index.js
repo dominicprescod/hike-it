@@ -1,3 +1,12 @@
+// ========================
+  setTimeout(function(){
+    document.getElementById("cover").style.width = "0";
+  },2000);
+
+
+// ========================
+
+
 var app = angular.module('hikeit', ["ngRoute"]);
 
 
