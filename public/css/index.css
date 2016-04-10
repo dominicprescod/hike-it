@@ -2,12 +2,17 @@
   padding: 0;
   margin: 0;
 }
+
+@font-face {
+    font-family: 'menu';
+    src: url('fontello.ttf');
+}
 body {
   background: papayawhip;
 }
 header {
   width: 100%;
-  height: 66px;
+  height: 127px;
   background: white;
   text-align: center;
 }
@@ -15,14 +20,30 @@ header {
 header > li {
   list-style: none;
   display: inline-block;
-  text-align: center
+  text-align: center;
+  font-size: 42px;
+  margin-top: 20px;
+  color: green;
+}
+
+#map {
+  float: right;
+}
+#menu {
+  font-family: "menu";
+  float: left;
+  margin-top: 27px;
+
 }
 
 header:first-of-type div {
   display: block;
-  margin-top: 30px;
-  text-align: left;
-  font-size: 15px;
+margin-top: 36px;
+text-align: left;
+background: lightgrey;
+height: 22px;
+font-size: 18px;
+color: white;
 }
 
 .trail {
