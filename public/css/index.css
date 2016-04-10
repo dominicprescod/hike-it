@@ -61,15 +61,13 @@ span {
 
 #list {
   list-style: none;
-  height: 540px;
-  overflow: scroll;
+  /*height: 800px;
+  overflow: scroll;*/
 }
 
 #cover {
   background: url('Desktop HD.png');
-  background-repeat: no-repeat;
-  height: 740px;
-  background-position: -400px -67px;
+  /*background-repeat: no-repeat;*/
   height: 100%;
 width: 100%;
 position: fixed;
@@ -80,10 +78,10 @@ overflow-x: hidden;
 transition: 1s;
 }
 
-#text {
+/*#text {
   text-align: center;
 color: white;
 font-size: 40px;
 font-family: fantasy;
 padding: 175px;
-}
+}*/
